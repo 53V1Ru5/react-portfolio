@@ -136,4 +136,4 @@ const Sidebar = () => (
 
 export default Sidebar
 ```
-paused on 40:50
+paused on 1:05:23

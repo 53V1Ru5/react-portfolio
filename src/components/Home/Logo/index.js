@@ -3,6 +3,8 @@ import gsap from 'gsap-trial'
 import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/logo-s.png'
 import './index.scss'
+import Loader from 'react-loaders'
+
 
 //I having trouble with "drawSVG" this will be great alternative
 import { motion } from "framer-motion";
@@ -52,6 +54,7 @@ const Logo = () => {
   }, [])
 
   return (
+    <>
     <div className="logo-container" ref={bgRef}>
       <img
         className="solid-logo"
@@ -89,6 +92,8 @@ const Logo = () => {
         </g>
       </svg>
     </div>
+    <Loader type="square-spin" />
+    </>
   )
 }
 
