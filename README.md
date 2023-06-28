@@ -136,4 +136,6 @@ const Sidebar = () => (
 
 export default Sidebar
 ```
-paused on 1:05:23
+
+
+npm i @react-google-maps/api 
