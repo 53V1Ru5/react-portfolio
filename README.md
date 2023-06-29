@@ -180,7 +180,7 @@ The main feature is an `AnimatedLetters` component to implement hover animations
     </span>
   ))}
 ```
-I used the following UseState and useEffect methods:
+I used the following useState and useEffect methods:
 ```
 
   const [letterClass, setLetterClass] = useState('text-animate')
