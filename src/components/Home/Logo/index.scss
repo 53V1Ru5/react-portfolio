@@ -34,5 +34,13 @@
   .svg-container {
     stroke: #ffd700;
     stroke-width: 0.5;
+
+
+    fill: 'none';
+
+    stroke-linecap: 'round';
+    stroke-linejoin: 'round';
+    stroke-dasharray: '1000';
+    stroke-dashoffset: '1000'
   }
   
