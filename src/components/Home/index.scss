@@ -81,3 +81,39 @@
   }
   
   
+
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 80%;
+    }
+    .home-page {
+      left: 0%;
+
+      h1 {
+        font-size: 30px;
+        margin-bottom: 40px;
+        left: 20%;
+        margin-top: 40px;
+        line-height: 44px;
+        margin: 5%;
+
+        &:before {
+          left: 5%;
+        }
+      }
+  
+      .text-zone {
+        width: 100%;
+        left: 22%;
+        top: 30%;
+        transform: translateY(-30%);
+      }
+    }
+    .tags {
+      left: 20%;
+    }
+    .bottom-tag-html {
+      margin-left: -10px;
+    }
+  }

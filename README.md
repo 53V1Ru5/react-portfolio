@@ -1,5 +1,5 @@
 
-# React Portfolio Website with Advanced Animations
+# Dynamic React Portfolio with Cutting-Edge Animations
 
 This is a portfolio website built using React and featuring advanced animations. The website showcases various pages such as Home, About, and Contact, with each page incorporating different animations and interactive elements.
 
